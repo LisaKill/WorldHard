@@ -1,4 +1,9 @@
-def hello():
-    for i in range(10,0,-1):
+
+def hello(i):
+    if i!=0:
         print(i)
-hello()
+        hello(i-1)
+    else:
+        return
+
+hello((int(input())))
