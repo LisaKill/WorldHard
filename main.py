@@ -1,5 +1,4 @@
 def hello():
-    print("Hello World")
-    a = input("Ваш возраст ")
-    print(a)
+    for i in range(10,0,-1):
+        print(i)
 hello()
